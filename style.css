@@ -13,5 +13,21 @@
  * License:           GNU General Public License v2.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html 
  * Template:   twentytwentyfive
+
  */
  
+
+ a:focus-visible {
+    outline-offset: 0px !important;
+
+ }
+ a:focus {
+    outline: none !important;
+ }
+ .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+ 
+    text-align: center;
+}
+.wp-block-navigation-item__content {
+    text-decoration: none !important;
+}
