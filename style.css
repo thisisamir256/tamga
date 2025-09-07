@@ -31,3 +31,8 @@
 .wp-block-navigation-item__content {
     text-decoration: none !important;
 }
+
+.wc-block-components-order-summary .wc-block-components-order-summary-item__description .wc-block-components-product-metadata, .wc-block-components-order-summary .wc-block-components-order-summary-item__description p,
+.wc-block-components-product-metadata .wc-block-components-product-metadata__description>p, .wc-block-components-product-metadata .wc-block-components-product-metadata__variation-data {
+   display: none !important;
+}
